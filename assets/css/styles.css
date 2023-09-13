@@ -514,9 +514,11 @@ a {
     text-align: center;
     font-size: 6.2rem;
     font-weight: 700;
+    line-height: 1.5;
 }
 
 .stat__sub-heading {
+    margin-top: 11px;
     color: #767e7e;
     text-align: center;
     font-size: 1.8rem;
@@ -587,6 +589,13 @@ a {
     background-color: var(--primary-color);
     border: none;
     border-radius: 50%;
+}
+
+.feedback__btn:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    background-color: #ffffff;
+    border: 1px solid var(--primary-color);
 }
 
 .feedback__images {
