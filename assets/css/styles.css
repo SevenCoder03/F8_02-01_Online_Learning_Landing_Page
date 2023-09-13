@@ -743,4 +743,7 @@ a {
 .footer__copyright {
     margin-top: 80px;
     text-align: center;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
